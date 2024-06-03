@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ImportGroup Label="PropertySheets" />
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(ProjectDir)SDL\SDL2_mixer-2.0.4\include;$(ProjectDir)src;$(ProjectDir)SDL\SDL2\include;$(ProjectDir)SDL\SDL2_image-2.0.5\include;$(ProjectDir)SDL\SDL2_ttf-2.0.15\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>$(ProjectDir)SDL\SDL2_ttf-2.0.15\lib\x86\SDL2_ttf.lib;$(ProjectDir)SDL\SDL2\lib\x86\SDL2.lib;$(ProjectDir)SDL\SDL2\lib\x86\SDL2main.lib;$(ProjectDir)SDL\SDL2\lib\x86\SDL2test.lib;$(ProjectDir)SDL\SDL2_image-2.0.5\lib\x86\SDL2_image.lib;$(ProjectDir)SDL\SDL2_mixer-2.0.4\lib\x86\SDL2_mixer.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup />
+</Project>

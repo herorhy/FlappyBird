@@ -1,0 +1,156 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="源文件\User">
+      <UniqueIdentifier>{fb025c78-7947-4a81-a6e0-4b73316d6140}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\User">
+      <UniqueIdentifier>{fe5179c6-6e8f-4b07-8d5a-2bc2378314a0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\data.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gamedef.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gamewin.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sceneman.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sprites\bullet.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sprites\enemy.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sprites\movbg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sprites\tip.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\scenes\gamescene.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\scenes\main.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\scenes\rank.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\scenes\title.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\engine\background.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\engine\group.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\engine\logger.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\engine\number.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\engine\parent.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\engine\resman.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\engine\sdltype.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\engine\timer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\engine\window.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\engine\sprite.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\engine\textsprite.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\engine\ChunkSprite.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\engine\Mixer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\engine\MixerManager.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\engine\MusicSprite.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\engine\spriteman.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\data.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\engine\background.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\engine\group.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\engine\logger.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\engine\number.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\engine\resman.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\engine\scene.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\engine\sprite.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\engine\window.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\engine\TextSprite.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\engine\ChunkSprite.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\engine\MierManager.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\engine\MusicSprite.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\LoadResource.cpp">
+      <Filter>源文件\User</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
